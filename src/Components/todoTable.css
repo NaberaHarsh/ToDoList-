@@ -1,0 +1,15 @@
+.tableContentData {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Patrick Hand SC", sans-serif;
+}
+
+.tableHeaderData {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Patrick Hand SC", sans-serif;
+}
+
+.action :hover {
+  cursor: pointer;
+}

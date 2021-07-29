@@ -1,0 +1,14 @@
+.labels {
+  font-size: 18px;
+  font-weight: 700;
+  align-self: center;
+  /* font-family: "Patrick Hand SC", sans-serif; */
+}
+
+.records {
+  padding: 8px;
+}
+
+.btnGap {
+  margin: 8px;
+}
