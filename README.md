@@ -20,6 +20,7 @@ npm start
 or
 yarn start
 ```
+The project will start running on [http://localhost:3000](http://localhost:3000/) in your browser
 
 ## Features
 You can make the list of the tasks for yourself or for others using the form 
