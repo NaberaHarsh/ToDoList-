@@ -40,6 +40,7 @@ interface IProps {
   width: any;
   errors: any;
   isEdit: boolean;
+  handleReset: any;
 }
 
 const ToDoForm: FunctionComponent<IProps> = ({
@@ -62,6 +63,7 @@ const ToDoForm: FunctionComponent<IProps> = ({
   handleUpdataData,
   errors,
   isEdit,
+  handleReset,
 }) => {
   const statusOptions = [
     { label: "Active", value: "active" },
@@ -307,7 +309,7 @@ const ToDoForm: FunctionComponent<IProps> = ({
               {isEdit && (
                 <Button
                   variant="contained"
-                  onClick={handleSubmit}
+                  onClick={handleReset}
                   style={{ marginLeft: "8px" }}
                 >
                   Cancel

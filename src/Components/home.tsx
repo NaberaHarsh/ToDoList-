@@ -191,6 +191,7 @@ const Home: FunctionComponent<IProps> = ({
       isToastOpen(true);
       setMessage("Data Deleted");
       setType("error");
+      handleReset();
     }, 1000);
   };
 
@@ -236,6 +237,7 @@ const Home: FunctionComponent<IProps> = ({
         handleUpdataData={handleUpdataData}
         errors={errors}
         isEdit={isEdit}
+        handleReset={handleReset}
       />
 
       {/* todo list table */}
