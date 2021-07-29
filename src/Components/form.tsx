@@ -11,6 +11,7 @@ import {
   FormControl,
   FormControlLabel,
   withWidth,
+  InputAdornment,
 } from "@material-ui/core";
 import Select from "react-select";
 import DateSlider from "./ageSelector";
@@ -86,8 +87,20 @@ const ToDoForm: FunctionComponent<IProps> = ({
                 variant="outlined"
                 placeholder="Enter Name"
                 value={name}
-                onChange={(e: any) => setName(e.target.value)}
+                onChange={(e: any) => {
+                  const re = /^[a-zA-Z ]{1,15}$/;
+                  if (e.target.value === "" || re.test(e.target.value)) {
+                    setName(e.target.value);
+                  }
+                }}
                 fullWidth
+                InputProps={{
+                  endAdornment: (
+                    <InputAdornment position="end">
+                      max length:15
+                    </InputAdornment>
+                  ),
+                }}
               />
               {errors.name && !name && (
                 <div style={{ color: "red" }}>{errors.name} </div>
