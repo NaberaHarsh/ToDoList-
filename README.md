@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# To-Do List Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a To-Do lis application that helps you to manage your day to day tasks.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+Go to the directory where you want to clone this project. Then run the following command for cloning this project
+```bash
+git clone https://github.com/NaberaHarsh/ToDoList-.git
+```
+Open the project in visual studio code or any other code editor and install all the dependencies by using npm or yarn
+```
+npm install
+or
+yarn install
+```
+After successfull installion run the project.
+```
+npm start
+or
+yarn start
+```
 
-### `yarn start`
+## Features
+You can make the list of the tasks for yourself or for others using the form 
+![Form Image](https://github.com/NaberaHarsh/ToDoList-/blob/master/public/assets/images/formImage.png?raw=true)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Creation 
+In the form we have some fields and all are mandatory fields, respective error is shown if any entry is missing or not in proper format.
+1. Name Field - This field accepts only alphabets with white space, and max length 15 is characters.
+2. Gender Field - This is a Radio Button that acceps 2 values (Male or Female). Only one can be selected at a time.
+3. Hobbies Feild - This is a CheckBox that allowa you to selec one or more than one option at a time.
+4. Age - This is a Slider that allows you to slide the cursor and select your age. Allowed values are from 18 to 55.
+5. Date - This is a Date Picker that allows you to choose the date accordingly.
+6. Task Name  - This field Accepts the name of the task. It can contain alphabets, numbers and special characters as well.
+7. Status - This Field allows you to select one option from the given options. 
+8. Action - Submit button lets you to submit the details but only after validation. Once submitted the form is cleared.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## List Data
+All the records submitted can be viewed inside the To-Do Task List ![Table Image](https://github.com/NaberaHarsh/ToDoList-/blob/master/public/assets/images/tableImage.png)
+From here we can edit the data as well as delete the data.
 
-### `yarn test`
+## Edit
+On clicking the pencil icon in the table the particular record entries will be available in the form, from here we can edit all the values and can update the record.
+![Edit Image](https://github.com/NaberaHarsh/ToDoList-/blob/master/public/assets/images/editImage.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Delete
+On Clicking the trash icon in the table, an alert will pop asking for the condfirmation for deleting the particular record.
+![Delete Image](https://github.com/NaberaHarsh/ToDoList-/blob/master/public/assets/images/deleteImage.png)
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
