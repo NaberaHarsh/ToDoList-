@@ -1,11 +1,12 @@
 # To-Do List 
 
-TodoList is a task management application that helps to manage your personal and professional productivity. You can use it to manage your tasks from a smartphone, tablet, or computer.
+Tasklist management application helps to manage your personal and professional productivity. You can use it to manage your tasks from a smartphone, tablet, or computer.
+
 ## Installation
 
 Go to the directory where you want to clone this project. Then run the following command for cloning this project
 ```bash
-git clone https://github.com/NaberaHarsh/ToDoList-.git
+git clone https://github.com/NaberaHarsh/tasklistManagement.git
 ```
 Once cloned successfully, open the project in visual studio code or any other code editor and install all the dependencies by using npm or yarn. Run command
 ```
@@ -21,11 +22,20 @@ yarn start
 ```
 The project will start running on [http://localhost:3000](http://localhost:3000/) in your browser
 
-## Features
-You can make the list of the tasks for yourself or for others using the form 
-![Form Image](https://github.com/NaberaHarsh/ToDoList-/blob/master/public/assets/images/formImage.png?raw=true)
+## Routes
+This project has one public route i.e., the login page and all other private routes, means to access any othe page you need to login first.
 
-## Creation 
+## Features
+### Login
+This is the public route and first page that opens when you start the application. ![login](https://github.com/NaberaHarsh/tasklistManagement/blob/master/public/assets/images/login.png)
+Here we have username and password field.
+1. Username Field - This field accepts only alphabets.
+2. Password Field - This field accepts only alphanumeric values and allowed lenght is 8.
+
+### Creation 
+You can make the list of the tasks using this form 
+![Form Image](https://github.com/NaberaHarsh/tasklistManagement/blob/master/public/assets/images/createtask.png)
+
 In the form we have some fields and all are mandatory fields, respective error is shown if any entry is missing or not in proper format.
 1. Name Field - This field accepts only alphabets with white space, and max length 15 is characters.
 2. Gender Field - This is a Radio Button that acceps 2 values (Male or Female). Only one can be selected at a time.
@@ -37,16 +47,18 @@ In the form we have some fields and all are mandatory fields, respective error i
 8. Action - Submit button lets you to submit the details but only after validation. Once submitted the form is cleared.
 
 ## List Data
-All the records submitted can be viewed inside the To-Do Task List ![Table Image](https://github.com/NaberaHarsh/ToDoList-/blob/master/public/assets/images/tableImage.png)
-From here we can edit the data as well as delete the data.
+All the records submitted can be viewed inside the view tasks section ![Table Image](https://github.com/NaberaHarsh/tasklistManagement/blob/master/public/assets/images/table.png)
+From here we can filter the data, sort and search according to taskname, edit the data as well as delete the data.
+<li> For sorting click on taskname header in table it will sort ascending and descending manner on each click.
+<li> For searching we have a search field in tabel for taskname, you can search taskname from here.
 
 ## Edit
 On clicking the pencil icon in the table the particular record entries will be available in the form, from here we can edit all the values and can update the record.
-![Edit Image](https://github.com/NaberaHarsh/ToDoList-/blob/master/public/assets/images/editImage.png)
+![Edit Image](https://github.com/NaberaHarsh/tasklistManagement/blob/master/public/assets/images/edittask.png)
 
 ## Delete
 On Clicking the trash icon in the table, an alert will pop asking for the condfirmation for deleting the particular record.
-![Delete Image](https://github.com/NaberaHarsh/ToDoList-/blob/master/public/assets/images/deleteImage.png)
+![Delete Image](https://github.com/NaberaHarsh/tasklistManagement/blob/master/public/assets/images/delete.png)
 
 ## Applications
 <li>This is a simple to use to-do list app that can help you plan,list and get more tasks done.
