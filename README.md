@@ -67,17 +67,17 @@ On Clicking the trash icon in the table, an alert will pop asking for the condfi
 ![Delete Image](https://github.com/NaberaHarsh/tasklistManagement/blob/master/public/assets/images/delete.png)
   
 ### jokes
-[jokes](https://github.com/NaberaHarsh/tasklistManagement/blob/master/public/assets/images/jokes.png)
+![jokes](https://github.com/NaberaHarsh/tasklistManagement/blob/master/public/assets/images/jokes.png)
 This section contains the list of jokes  
 
 ### Applications
 <li> This is a simple to use tasklist management application that can
             help you plan,list and get more tasks done.
-<li>You can create unlimited tasks, set status, give completion datess.
+<li>You can create unlimited tasks, set status, give completion dates.
 <li>You can Create tasks for yourself and for others.
 <li>You can keep record of your employees daily tasks as well.
-<li>One of the most important reasons for keeping a to-do list is the organization.
-  <li>Organizing your tasks with a list can make everything much more manageable and make you feel grounded.
+<li>One of the most important reasons for keeping a tasklist management is the organization.
+ <li>Organizing your tasks with a list can make everything much more manageable and make you feel grounded.
 <li>Seeing a clear outline of all your tasks will help you feel organized and stay mentally focused.
 
 
