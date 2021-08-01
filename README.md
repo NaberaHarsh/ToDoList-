@@ -32,6 +32,16 @@ Here we have username and password field.
 1. Username Field - This field accepts only alphabets.
 2. Password Field - This field accepts only alphanumeric values and allowed lenght is 8.
 
+### Dashboard
+![Dashboard](https://github.com/NaberaHarsh/tasklistManagement/blob/master/public/assets/images/dashboard.png)
+<li> After successfull login you will be directed to Dashboard page.
+<li> This page contains the welcome message and some applications and features of application.
+<li> In navbar logout button is present, upon clicking you will be logged out and data will be cleared.
+  
+### Drawer
+![drawer](https://github.com/NaberaHarsh/tasklistManagement/blob/master/public/assets/images/drawer.png)
+In navbar on clocking on the menu icon drawer will open in left side, it contains list all the pages present in the app.
+
 ### Creation 
 You can make the list of the tasks using this form 
 ![Form Image](https://github.com/NaberaHarsh/tasklistManagement/blob/master/public/assets/images/createtask.png)
@@ -46,21 +56,21 @@ In the form we have some fields and all are mandatory fields, respective error i
 7. Status - This Field allows you to select one option from the given options. 
 8. Action - Submit button lets you to submit the details but only after validation. Once submitted the form is cleared.
 
-## List Data
+### List Data
 All the records submitted can be viewed inside the view tasks section ![Table Image](https://github.com/NaberaHarsh/tasklistManagement/blob/master/public/assets/images/table.png)
 From here we can filter the data, sort and search according to taskname, edit the data as well as delete the data.
 <li> For sorting click on taskname header in table it will sort ascending and descending manner on each click.
 <li> For searching we have a search field in tabel for taskname, you can search taskname from here.
 
-## Edit
+### Edit
 On clicking the pencil icon in the table the particular record entries will be available in the form, from here we can edit all the values and can update the record.
 ![Edit Image](https://github.com/NaberaHarsh/tasklistManagement/blob/master/public/assets/images/edittask.png)
 
-## Delete
+### Delete
 On Clicking the trash icon in the table, an alert will pop asking for the condfirmation for deleting the particular record.
 ![Delete Image](https://github.com/NaberaHarsh/tasklistManagement/blob/master/public/assets/images/delete.png)
 
-## Applications
+### Applications
 <li>This is a simple to use to-do list app that can help you plan,list and get more tasks done.
 <li>You can create unlimited tasks, set status, give due dates.
 <li>You can Create tasks for yourself and for others.
